@@ -10,7 +10,7 @@ print ('This is Course 1 of NLTK Training')
 with open('/ticket_Data.csv') as inputfile:
   exceldata=inputfile.read()
 #Extracting all words
-  vocabs = word_tokenize(doc)
+  vocabs = word_tokenize(exceldata)
   #print (vocabs)
 
 #Removing duplicates by converting list into a disctionary
